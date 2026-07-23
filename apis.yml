@@ -1,8 +1,26 @@
 aid: apollo-agriculture
 name: Apollo Agriculture
-description: 'Apollo Agriculture is a company surfaced as a portfolio company of anthemis, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: agtech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Apollo Agriculture is an agricultural technology company founded in 2016 and
+  headquartered in Nairobi, Kenya, that helps small-scale farmers across Africa maximize their
+  profits. Apollo delivers a full-stack service bundling quality farm inputs (seed and fertilizer),
+  flexible input financing and credit, satellite- and machine-learning-driven agronomic advice,
+  crop insurance, and market access, distributed through a network of local agrodealers and mobile
+  technology. The company serves smallholder farmers in markets including Kenya and Zambia and is
+  backed by investors including Anthemis and the SoftBank Vision Fund. This profile tracks Apollo
+  Agriculture as a company in the API Evangelist network; no public developer API has been identified
+  at this time.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/6414395791ffc20447907be9/t/64fecaa8728fa92c007c9d35/1694419624777/Apollo_LOGO___Lime.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/apollo-agriculture/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,9 +35,45 @@ modified: '2026-07-17'
 tags:
 - Company
 - Agtech
+- Agriculture
+- Fintech
+- Financial Services
+- Insurance
+- Lending
+- Africa
+- Kenya
+- Farming
 apis: []
+common:
+- type: DomainSecurity
+  url: security/apollo-agriculture-domain-security.yml
+- type: Website
+  url: https://apolloagriculture.com
+- type: About
+  url: https://apolloagriculture.com/about
+- type: Support
+  url: https://apolloagriculture.com/contact
+- type: PrivacyPolicy
+  url: https://apolloagriculture.com/privacy
+- type: TermsOfService
+  url: https://apolloagriculture.com/s/Apollo-Terms-and-conditions_Updated-SEPT-2025docx.pdf
+- type: News
+  url: https://apolloagriculture.com/news
+- type: Careers
+  url: https://apolloagriculture.com/work-with-us
+- type: FarmerPortal
+  url: https://apolloagriculture.com/farmer
+- type: AgrodealerProgram
+  url: https://apolloagriculture.com/agrodealer
+- type: SecurityPage
+  url: https://apolloagriculture.com/security
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
