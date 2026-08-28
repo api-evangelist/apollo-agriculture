@@ -9,6 +9,17 @@ description: 'Apollo Agriculture is an agricultural technology company founded i
   backed by investors including Anthemis and the SoftBank Vision Fund. This profile tracks Apollo
   Agriculture as a company in the API Evangelist network; no public developer API has been identified
   at this time.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
