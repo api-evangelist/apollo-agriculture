@@ -48,7 +48,7 @@ tags:
 - AgTech
 - Agriculture
 - Fintech
-- Financial-Services
+- Financial Services
 - Insurance
 - Lending
 - Africa
@@ -65,6 +65,7 @@ tags_raw:
 - Africa
 - Kenya
 - Farming
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
